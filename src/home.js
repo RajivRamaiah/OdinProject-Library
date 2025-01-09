@@ -3,14 +3,14 @@ function createHome() {
     home.classList.add('home');
 
     const restaurantName = document.createElement('h1');
-    restaurantName.textContent = "Bella's Italian Kitchen";
+    restaurantName.textContent = "Rajiv's Italian Kitchen";
 
     const image = document.createElement('img');
     image.src = 'restaurant-image.jpg';
     image.alt = 'Restaurant interior';
 
     const description = document.createElement('p');
-    description.textContent = 'Welcome to Bella\'s, where authentic Italian cuisine meets modern elegance. Est. 1995.';
+    description.textContent = 'Welcome to Rajiv\'s, where authentic Italian cuisine meets modern elegance. Est. 1995.';
 
     const hours = document.createElement('div');
     hours.classList.add('hours');
